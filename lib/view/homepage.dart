@@ -114,11 +114,14 @@ class HomePage extends StatelessWidget {
                 }
               ),
             ),
-            GetX<CartController>(
-              builder: (controller) {
-                return Text('Total Amount: ${controller.totalPrice}',style: TextStyle(fontSize: 30), );
-              }
-            ),
+//            GetX<CartController>(
+//              builder: (controller) {
+//                return Text('Total Amount: ${controller.totalPrice}',style: TextStyle(fontSize: 30), );
+//              }
+//            ),
+          GetBuilder<CartController>(builder: (controller){
+            return Text('${controller.testAmount}');
+          }),
             SizedBox(height: 100,)
 
           ],
