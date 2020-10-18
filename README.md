@@ -1,16 +1,32 @@
 # getxmode
 
-A new Flutter application.
+**GetX allows the total decoupling of the View,  
+presentation logic, business logic, dependency injection,  
+and navigation. You do not need context to navigate between routes,  
+so you are not dependent on the widget tree (visualization) for this**.
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+A few resources to get you started if this is your first Flutter
+project:
+`git clone https://github.com/sumanmanna134/GetXFlutter.git`
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### for web:
+`flutter channel beta`
+`flutter upgrade`
+`flutter config --enable-web`
+
+#### for existing project:
+`flutter create .`
+#### To serve your app from localhost in Chrome, enter the following from the top of the package:
+`flutter run -d chrome`
+
+
+
 
 For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[online documentation](https://flutter.dev/docs), which offers
+tutorials, samples, guidance on mobile development, and a full API
+reference.
